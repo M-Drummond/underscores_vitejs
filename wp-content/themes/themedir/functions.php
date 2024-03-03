@@ -180,6 +180,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 function vite_scripts() {
 
 	// wp-config needs: define( 'FRONTEND_DEV_MODE' , true  ); added
+	// if your frontend does not work, visit the two urls below and be sure your browser is allowing them
 	  if ( FRONTEND_DEV_MODE ) {
 		  echo '<!-- vite time -->
 		  <script type="module" src="https://localhost:3000/@vite/client"></script>
